@@ -1,0 +1,63 @@
+.Header {
+
+    background-color: var(--primary);
+    padding: 10px 0 ;
+}
+
+.Header .container {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Header a {
+
+    color : var(--white);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.Header a:hover{
+
+    opacity: 0.7;
+}
+
+.Header .nav-links {
+
+    display: flex;
+    align-items: center;
+   padding: 0;
+   margin: 0;
+   
+}
+
+
+.Header .logo a {
+
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.Header .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+@media (max-width :575px){
+
+    
+.Header .nav-links li {
+
+    margin: 0 5px ;
+}
+
+}
+
+.Header .nav-links li:last-child{
+
+    margin-right: 0;
+}
